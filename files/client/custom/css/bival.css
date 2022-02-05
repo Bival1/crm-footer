@@ -1,0 +1,97 @@
+	#myoverlay {
+		position:fixed;
+		top:0px;
+		right:0px;
+		width:100%;
+		height:100%;
+		background-color:#666;
+		background-image:url('https://my.nodbaltic.com/giphy.gif');
+		background-repeat:no-repeat;
+		background-position:center;
+		z-index:10000000;
+		opacity: 0.4;
+		filter: alpha(opacity=40);
+		display: none;   
+	}	
+	#mywindow {
+		top: 50%;
+		left: 50%;
+		width:40em;
+		height:18em;
+		margin-top: -9em; /*set to a negative number 1/2 of your height*/
+		margin-left: -20em; /*set to a negative number 1/2 of your width*/
+		border: 1px solid #ccc;
+		background-color: #f3f3f3;
+		position:fixed;
+		display: none; 
+	}	
+	.label-casenew {
+		background-color: #008080;
+	}	
+	.inperror
+	{
+		border:1px solid red;
+	}		
+	
+.giftstri {	
+	font-size: 14px;
+}
+	
+.giftsgr input[type="checkbox"] {
+	display:none !important;
+}
+
+.giftsgr input + span + label {
+	margin-bottom: 4px !important;	
+	display: inline-block;	
+	width: 31px;
+	height: 31px;
+	cursor: pointer;	
+	background-image: url(/client/custom/css/juodas.png);
+	border-style: solid;
+    border-color: #ccc;
+	border-width: 1px;	
+    background-repeat: no-repeat;
+    background-size: 28px 28px;	
+	background-color: #f7f7f7;	
+}	
+.giftsgr input[type="checkbox"]:checked + span + label {
+	margin-bottom: 4px !important;	
+	background-image: url(/client/custom/css/baltas.png);
+    background-repeat: no-repeat;
+    background-size: 28px 28px;	
+	background-color: #3575d3;	
+	border-style: solid;
+    border-color: #ccc;
+	border-width: 1px;
+	width: 31px;
+	height: 31px;
+	display: inline-block;		
+}
+.giftsgr input + span {
+    border-style: solid;
+    border-color: #ccc;
+    background: #f7f7f7;
+    color: #515151; 
+    padding: 5px;
+    border-width: 1px;
+	margin-right: 2px;
+	font-size: 14px;
+}	
+.giftsgr input[type="checkbox"]:checked + span {
+    border-style: solid;
+    border-color: #ccc;
+    background: #3575d3;
+    color: white;
+    padding: 5px;
+    border-width: 1px;
+	margin-right: 2px;
+	font-size: 14px;
+}
+.disabledobject {
+    pointer-events: none;
+    opacity: 0.8;
+}
+body>footer>p.credit:after {
+    content: " " !important;
+}

@@ -1,0 +1,10 @@
+{
+    "cssList": [
+		"__APPEND__",
+        "client/custom/css/bival.css"
+    ],
+    "scriptList": [
+		"__APPEND__",
+        "client/custom/js/bival.js"
+    ]
+}
