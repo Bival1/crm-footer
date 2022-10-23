@@ -1,11 +1,11 @@
 {
     "name": "Footer CRM",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "extension",
     "acceptableVersions": [
         ">=7.0.0"
     ],
-    "releaseDate": "2022-02-01",
+    "releaseDate": "2022-10-23",
     "author": "Bival",
-    "description": "Footer by tpl, disabled js base64"
+    "description": "Footer by tpl, disabled js base64 -  7.2.5"
 }
